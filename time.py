@@ -1,7 +1,6 @@
 """This file captures some methods to work with time in Python"""
 
 from datetime import date
-from datetime import time
 from datetime import datetime
 
 
@@ -22,10 +21,14 @@ def main():
     print now.strftime("It is %dth %b of %y, and a %a")
     print now.strftime("It is %dth %B of %Y, and a %A \n")
 
-    # Dealing with Locale's time style
+    # Dealing with Locale's date style
     print now.strftime("Locale's date and time: %c")
     print now.strftime("Locale's date: %x")
     print now.strftime("Locale's time: %X \n")
+
+    # Dealing with Locale's time
+    print now.strftime("Current time: %I:%M:%p")
+    print now.strftime("24-hour time: %H:%M")
 
 
 if __name__ == '__main__':
