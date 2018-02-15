@@ -1,3 +1,5 @@
+"""This script demonstrates the basic use of logging module"""
+
 import logging
 
 logging.basicConfig(level=logging.DEBUG, filename="example.log", filemode="w")

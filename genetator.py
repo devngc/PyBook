@@ -1,3 +1,6 @@
+"""This script demonstrates the use of generators in Python"""
+
+
 def inclusive_range(*args):
     """
     This functions is a generator similar to the built-in inclusive_range

@@ -1,4 +1,4 @@
-"""This module imports the assignments and checks them"""
+"""This script imports the assignments and checks them"""
 
 from assignments import MaxSizeList
 

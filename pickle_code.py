@@ -1,3 +1,5 @@
+"""This script shows the use of pickel module"""
+
 import pickle
 
 myList = ["a", "b", "c", "d"]

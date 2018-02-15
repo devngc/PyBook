@@ -1,3 +1,6 @@
+"""This script demonstrates the use of with in Python.
+The use of with is preferable over opening and closing files"""
+
 try:
     with open("text.txt") as fh:
         for line in fh:

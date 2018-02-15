@@ -1,7 +1,8 @@
 """This file is frequently used to try new things. Contents change
 almost on a daily basis."""
 
-a = ["Mostapha", "Chris"]
+a = ["Mostapha", "Chris", "Sarith"]
 
 b = ["Mostapha",
-     "Chris",]
+     "Chris",
+     "Sarith",]

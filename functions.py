@@ -1,4 +1,4 @@
-"""This file captures the interesting and \
+"""This file captures the interesting and
 useful things I found out about the functions in Python"""
 
 

@@ -1,3 +1,5 @@
+"""This script shows the use of yaml and json module"""
+
 import yaml
 import json
 

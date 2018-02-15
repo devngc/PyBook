@@ -1,3 +1,4 @@
+"""This script demonstrates common list operations in Python"""
 
 # Deleting items from a list
 materialProperties = ["conductivity", "absorptance", "transmittance",

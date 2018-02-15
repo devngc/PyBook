@@ -1,3 +1,5 @@
+"""This file captures some methods to work with timeit module in Python"""
+
 import timeit
 
 print "by index: ", timeit.timeit(

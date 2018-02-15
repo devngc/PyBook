@@ -1,3 +1,4 @@
+"""This script demostrates working with files through Python"""
 
 
 def main():

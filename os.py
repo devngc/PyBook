@@ -1,3 +1,5 @@
+"""This script shows the use of os module"""
+
 import os
 from os import path
 import shutil

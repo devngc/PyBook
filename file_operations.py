@@ -1,3 +1,5 @@
+"""This script demostrates file operations through Python"""
+
 import os
 from os import path
 import datetime

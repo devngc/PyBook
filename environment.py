@@ -1,3 +1,6 @@
+"""This script demonstrates how to work with system path variables
+through Python"""
+
 import os
 import sys
 import functions

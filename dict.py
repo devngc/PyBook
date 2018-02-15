@@ -1,3 +1,6 @@
+"""This script demostrates some operations that can be done on
+Python dictionaries"""
+
 # Adding two dictionaries
 capitals = {"USA": "Washington DC", "France": "Paris", "Italy": "Rome"}
 more_Capitals = {"Germany": "Berlin", "Russia": "Moscow"}

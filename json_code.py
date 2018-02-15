@@ -1,3 +1,5 @@
+"""This script demonstrates the use of json module in Python"""
+
 import json
 
 with open("sample.json") as fh:
