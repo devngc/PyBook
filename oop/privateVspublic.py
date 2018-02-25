@@ -1,4 +1,4 @@
-"""This file shows the use of private and public variables in Python
+"""This script shows the use of private and public variables in Python
 OOP"""
 
 # Module names: all_lower_case

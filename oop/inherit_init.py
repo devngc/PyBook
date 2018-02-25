@@ -1,4 +1,4 @@
-"""This module demonstrates how the
+"""This script demonstrates how the
 __init__ constructor in the parent class can
 be inherited in the instance class."""
 

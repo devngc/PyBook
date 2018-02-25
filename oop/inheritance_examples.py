@@ -1,4 +1,4 @@
-"""This module constains some inheritance examples"""
+"""This script constains some inheritance examples"""
 import abc
 
 

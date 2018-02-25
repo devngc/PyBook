@@ -1,4 +1,4 @@
-"""This module demonstrates MRO in OOP"""
+"""This script demonstrates MRO in OOP"""
 
 # This is an example of tree shaped inheritance pattern
 
@@ -28,7 +28,7 @@ class D(B, C):
 d_instance = D()
 d_instance.doTHis()
 
-# Following is the most important attribute call in this moduleself.
+# Following is the most important attribute call in this script.
 # Study the output of this call carefully
 # It display how python is looking up for an attribute
 # This is called MRO, or Method Resolution Order

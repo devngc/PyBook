@@ -1,4 +1,4 @@
-"""This module demonstrates inheritence with a simple exameple"""
+"""This script demonstrates inheritence with a simple exameple"""
 
 
 class Animal(object):

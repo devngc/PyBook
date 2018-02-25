@@ -1,4 +1,4 @@
-"""This module demonstrates the use of an abstract class"""
+"""This script demonstrates the use of an abstract class"""
 import abc
 
 

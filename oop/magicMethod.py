@@ -1,4 +1,4 @@
-"""This module demonstrates the customisation of magic methods"""
+"""This script demonstrates the customisation of magic methods"""
 
 
 class SumList(object):

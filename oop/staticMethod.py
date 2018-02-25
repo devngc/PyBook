@@ -1,4 +1,4 @@
-"""This module demonstrates the use of Static Method"""
+"""This script demonstrates the use of Static Method"""
 
 
 class InstanceCounter(object):

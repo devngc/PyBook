@@ -1,4 +1,4 @@
-"""This module demonstrates the proprty operator"""
+"""This script demonstrates the proprty operator"""
 
 
 class GetSet(object):

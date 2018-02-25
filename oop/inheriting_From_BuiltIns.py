@@ -1,4 +1,4 @@
-"""This module demonstrates how you inherit from Python built-in classes"""
+"""This script demonstrates how you inherit from Python built-in classes"""
 
 
 class MyDict(dict):
