@@ -2,16 +2,20 @@
 
 import os
 
-# Renaming a file
-try:
-    os.rename("unitTest.py", "myprogram.py")
-    print "File successfully renamed"
-except Exception as e:
-    print e
 
-# Removing compiled files
-dirs = os.listdir(os.getcwd())
-for file in dirs:
-    if ".pyc" in file:
-        print "{} will be removed". format(file)
-        os.remove(file)
+def rename(old, new):
+    """Renaming a file"""
+    try:
+        os.rename(old, new)
+        print "File successfully renamed"
+    except Exception as e:
+        print e
+
+
+def remove(extension):
+    """Removing files of specific extension"""
+    dirs = os.listdir(os.getcwd())
+    for file in dirs:
+        if extension in file:
+            print "{} will be removed". format(file)
+            os.remove(file)
