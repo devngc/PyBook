@@ -15,3 +15,6 @@ print materialProperties
 # Using enumerate
 for i, j in enumerate(materialProperties):
     print i, j
+
+# Reverse list
+print sorted(materialProperties, reverse=True)
