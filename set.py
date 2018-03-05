@@ -11,3 +11,11 @@ print result01
 print result02
 print result03
 print result04
+
+# Intersecting List
+c = range(1, 21)
+d = range(11, 21)
+e = [c, d]
+sete = [set(item) for item in e]
+intersection = set.intersection(*sete)
+print sorted(intersection)
