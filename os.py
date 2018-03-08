@@ -26,6 +26,9 @@ def main():
             newzip.write("text.txt")
             newzip.write("text.txt.bak")
 
+    else:
+        print "File not found"
+
 
 if __name__ == "__main__":
     main()
