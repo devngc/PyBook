@@ -1,13 +1,9 @@
 def checkDiscount(product, discount):
     salePrice = product["price"] - (product['price'] * discount)
-    message = "The sale price must be\
-                                              greater than 0 and\
-                                              less than the original\
-                                              price of the product."
-    assert 0 <= salePrice <= product['price'][message]
+    assert 0 <= salePrice <= product['price']
     return salePrice
 
 
 store = {"name": "shoes", "price": 50}
 
-print checkDiscount(store, 3.0)
+print checkDiscount(store, 2.0)
