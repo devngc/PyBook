@@ -1,3 +1,6 @@
+"""This file shows the use of private and public variables in Python
+OOP"""
+
 # Module names: all_lower_case
 # Globals and locals: all_lower_case
 # Functions and methods: all_lower_case

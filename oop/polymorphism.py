@@ -1,5 +1,5 @@
-"""This class demonstrated polymorphism with a simple example. \
-Please pay attention to the show_affection method that is defined \
+"""This class demonstrated polymorphism with a simple example.
+Please pay attention to the show_affection method that is defined
 in both the classes"""
 
 

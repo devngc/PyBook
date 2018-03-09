@@ -1,5 +1,5 @@
-"""This module demonstrates how the \
-__init__ constructor in the parent class can \
+"""This module demonstrates how the
+__init__ constructor in the parent class can
 be inherited in the instance class."""
 
 import random

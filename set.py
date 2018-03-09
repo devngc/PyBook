@@ -1,3 +1,4 @@
+"""This file demonstrates the use of sets in Python"""
 # The set is an unordered list of unique members
 a = set(" I am devang")
 b = set("I like work a lot")

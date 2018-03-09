@@ -1,5 +1,10 @@
-import myprogram
-import pytest
+"""This file shows how testing is conducted for a python file."""
+
+try:
+    import myprogram
+    import pytest
+except ImportError, e:
+    print e
 
 
 def test_doubleit():
