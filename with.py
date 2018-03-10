@@ -1,10 +1,13 @@
-with open("text.txt") as fh:
-    for line in fh:
-        line = line.rstrip()
-        print line
-# After the with block is executed, Python closes the file
-print "done!"
-print "\n"*2
+try:
+    with open("text.txt") as fh:
+        for line in fh:
+            line = line.rstrip()
+            print line
+    # After the with block is executed, Python closes the file
+except Exception, e:
+    print e
+finally:
+    print "done! \n"
 
 
 class MyClass(object):
