@@ -14,8 +14,16 @@ materialProperties.insert(0, "specific heat")
 print materialProperties
 
 # Using enumerate
+print "Using enumerate"
 for i, j in enumerate(materialProperties):
     print i, j
 
 # Reverse list
 print sorted(materialProperties, reverse=True)
+
+# Looping over a list in Reverse
+for properties in reversed(materialProperties):
+    print properties
+
+# Sorting using a key
+print sorted(materialProperties, key=len)

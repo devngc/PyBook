@@ -19,3 +19,6 @@ def remove(extension):
         if extension in file:
             print "{} will be removed". format(file)
             os.remove(file)
+
+
+remove(".pyc")
