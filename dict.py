@@ -1,7 +1,12 @@
 """This script demostrates some operations that can be done on
 Python dictionaries"""
 from itertools import izip
-from collections import defaultdict
+import json
+
+
+# Printing dictionary with json module
+map = {"a": 23, "b": 42, "c": "coffee"}
+print json.dumps(map, indent=4, sort_keys=True), "\n"
 
 # Creating disctionary from lists
 cars = ["bmw", "honda", "toyota"]
