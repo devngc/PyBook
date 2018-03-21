@@ -1,6 +1,7 @@
 """This file is used to perform file modifications in thid directory"""
 
 import os
+os.chdir("G:\Dropbox\Github\PyBook")
 
 
 def rename(old, new):

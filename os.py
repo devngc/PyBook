@@ -1,36 +1,12 @@
 """This script shows the use of os module"""
 
 import os
-from os import path
-import shutil
-from zipfile import ZipFile
 
 
-def main():
-    if path.exists("text.txt"):
+print "current working directory is {}".format(os.getcwd())
+print "Now setting the current directory to the Pybook folder at {}".format(
+    "G:\Dropbox\Github\PyBook")
+os.chdir("G:\Dropbox\Github\PyBook")
 
-        src = path.realpath("text.txt")
-        dst = src + ".bak"
-
-        # Normal copy and copy with metadata
-        shutil.copy(src, dst)
-        shutil.copystat(src, dst)
-
-        # Rename file
-        os.rename("text.txt", "newFile.txt")
-
-        # Make archive
-        root_dir, tail = path.split(src)
-        shutil.make_archive("archive", "zip", root_dir=root_dir)
-
-        # Make archive with specific files
-        with ZipFile("testzip.zip", "w") as newzip:
-            newzip.write("text.txt")
-            newzip.write("text.txt.bak")
-
-    else:
-        print "File not found"
-
-
-if __name__ == "__main__":
-    main()
+# Rename file
+os.rename("sample.txt", "newSampleFile.txt")
