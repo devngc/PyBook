@@ -3,7 +3,9 @@
 
 class InstanceCounter(object):
     """This class counts the number of times the class is instantiated"""
-    count = 0
+
+    count = 0  # Class variable
+    # A class variable is available to the class and the variables
 
     def __init__(self, val):
         self.val = val
