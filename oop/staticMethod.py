@@ -19,10 +19,11 @@ class InstanceCounter(object):
 
 
 a = InstanceCounter(5)
-a = InstanceCounter("Hello")
-b = InstanceCounter(13)
-c = InstanceCounter(17)
+b = InstanceCounter("Hello")
+c = InstanceCounter(13)
+d = InstanceCounter(17)
 
 print a.val
 print b.val
 print c.val
+print d.val

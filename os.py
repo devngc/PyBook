@@ -9,4 +9,4 @@ print "Now setting the current directory to the Pybook folder at {}".format(
 os.chdir("G:\Dropbox\Github\PyBook")
 
 # Rename file
-os.rename("sample.txt", "newSampleFile.txt")
+# os.rename("sample.txt", "newSampleFile.txt")
