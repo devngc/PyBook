@@ -24,6 +24,7 @@ class InstanceCounter(object):
     # CLS is the class instance
     @classmethod
     def get_count(cls):
+        """This methods returns the number of times a class is instantiated."""
         return cls.count
 
 
