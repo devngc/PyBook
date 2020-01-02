@@ -1,8 +1,11 @@
-class Book:
-    def __init__(self, title):
-        self.title = title
+import warnings
 
+dict = {}
 
-b1 = Book('Doba')
-print(b1)
-print(b1.title)
+if dict:
+    print(True)
+else:
+    warnings.warn(
+        'It is empty'
+    )
+    dict = {}
