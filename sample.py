@@ -1,5 +1,7 @@
 """This file is frequently used to try new things. Contents change
 almost on a daily basis."""
 
-a = "devang"
-print isinstance(a, int)
+data = {"a": 1, "b": 2}
+print(data)
+data["a"] = 1
+print(data)
