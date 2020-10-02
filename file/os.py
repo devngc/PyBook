@@ -3,10 +3,8 @@
 import os
 
 
-print "current working directory is {}".format(os.getcwd())
-print "Now setting the current directory to the Pybook folder at {}".format(
-    "G:\Dropbox\Github\PyBook")
-os.chdir("G:\Dropbox\Github\PyBook")
+print(os.getcwd())
+print(os.chdir("D:\Github\PyBook"))
 
 # Rename file
 # os.rename("sample.txt", "newSampleFile.txt")
