@@ -10,4 +10,4 @@ def checkDiscount(product, discount):
 
 store = {"name": "shoes", "price": 50}
 
-print checkDiscount(store, 2.0)
+print(checkDiscount(store, 2.0))
