@@ -1,2 +1,3 @@
 a = list(range(0, 25))
-print(a)
+
+print(list(map(lambda num: num**2, a)))
