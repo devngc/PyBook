@@ -2,7 +2,8 @@
 
 from zipfile import ZipFile
 import os
-os.chdir("G:\Dropbox\Github\PyBook")
+
+os.chdir("D:\Github\PyBook")
 
 try:
     with ZipFile("testzip.zip", "w") as newzip:
@@ -10,4 +11,4 @@ try:
         newzip.write("sample.txt.bak")
 
 except Exception as e:
-    print e.message
+    print(e.message)

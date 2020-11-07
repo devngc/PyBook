@@ -8,22 +8,22 @@ class GetSet(object):
 
     @property
     def var(self):
-        print "getting the var attribute"
+        print("getting the var attribute")
         return self.attrval
 
     @var.setter
     def var(self, value):
-        print "Setting the 'var' attribute"
+        print("Setting the 'var' attribute")
         self.attrval = value
 
     @var.deleter
     def var(self):
-        print "deleting the 'var' attribute"
+        print("deleting the 'var' attribute")
         self.attrval = None
 
 
 me = GetSet(5)
 me.var = 1000
-print me.var
+print(me.var)
 del me.var
-print me.var
+print(me.var)
