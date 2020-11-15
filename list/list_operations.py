@@ -34,6 +34,15 @@ print(sorted(mat, key=len))
 # Use of a map function
 a = list(range(10))
 
+# Evaluate if any of the items on the list is True
+print(any(a))
+
+# Evaluate if any of the items on the list is True. Since the list has 0 it returns False.
+print(all(a))
+
+# Get Min, Max, and Sum
+print(min(a), max(a), sum(a))
+
 
 def squared(x):
     return x ** 2
