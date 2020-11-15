@@ -42,13 +42,3 @@ print(all(a))
 
 # Get Min, Max, and Sum
 print(min(a), max(a), sum(a))
-
-
-def squared(x):
-    return x ** 2
-
-
-# Using map function
-print(list(map(squared, a)))
-# Using lambda with Map
-print(list(map(lambda x: x**2, a)))
