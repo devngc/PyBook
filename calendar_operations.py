@@ -6,27 +6,27 @@ import calendar
 def main():
     c = calendar.TextCalendar(calendar.MONDAY)
     st = c.formatmonth(2017, 1, 0, 0)
-    print st
+    print(st)
 
     # HTML calendar
     hc = calendar.HTMLCalendar(calendar.SUNDAY)
     st = hc.formatmonth(2017, 1)
-    print st
+    print(st)
 
     # Dates of the month
     for i in c.itermonthdays(2017, 8):
-        print i
+        print(i)
 
     # Months in a year as per Locale
     for name in calendar.month_name:
-        print name
+        print(name)
 
     # # Days in a week as per Locale
     for day in calendar.day_name:
-        print day
+        print(day)
 
     # Priting a particualr date on each month
-    print "Team meetings will be on: "
+    print("Team meetings will be on: ")
     for m in range(1, 13):
         cal = calendar.monthcalendar(208, m)
         weekOne = cal[0]
@@ -37,7 +37,7 @@ def main():
         else:
             meetday = weekTwo[calendar.FRIDAY]
 
-        print "%10s %2d" % (calendar.month_name[m], meetday)
+        print("%10s %2d" % (calendar.month_name[m], meetday))
 
 
 if __name__ == "__main__":

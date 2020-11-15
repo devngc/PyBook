@@ -6,7 +6,7 @@ import json
 
 # Printing dictionary with json module
 map = {"a": 23, "b": 42, "c": "coffee"}
-print json.dumps(map, indent=4, sort_keys=True), "\n"
+print(json.dumps(map, indent=4, sort_keys=True), "\n")
 
 # Creating disctionary from lists
 cars = ["bmw", "honda", "toyota"]
