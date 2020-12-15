@@ -25,5 +25,7 @@ print(b1.getprice())
 b1.setdiscount(0.1)
 print(b1.getprice())
 
+# Although not encouraged, you can access this attribute
+print(b1._discount)
 # See what happens when this attribute is called out
 print(b1.__secret)
