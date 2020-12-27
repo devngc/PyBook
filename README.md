@@ -1,2 +1,0 @@
-# PyBook
-This is a collection of Python tricks that I found interesting while working on several python projects. This repository is meant to be used as a quick reference for myself and others. If you are visiting and can suggest an improvement to any of the methods used, please do.
