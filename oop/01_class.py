@@ -19,13 +19,13 @@ class Dog:
     def walk(self):
         print(self.swag)
 
-
 def main():
     scooby = Dog()
     scooby.bark()
     scooby.walk()
     # While the following is not a good practice, it is allowed
     print(scooby.sound)
+    print(scooby)
 
 
 if __name__ == '__main__':
