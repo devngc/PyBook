@@ -1,66 +1,30 @@
-"""This script demonstrates MRO in OOP"""
-
-# This is an example of tree shaped inheritance pattern
+"""This script demonstrates MRO (Method Resolution Order) in OOP."""
 
 
-class A(object):
-    """Class A"""
-    def doTHis(self):
-        print "Doing this inside A"
+class A():
+    def __init__(self):
+        super().__init__()
+        self.foo = 'foo'
+        self.name = 'Class A'
 
 
-class B(A):
-    """Class B the child of class A"""
-    pass
+class B():
+    def __init__(self):
+        super().__init__()
+        self.bar = 'bar'
+        self.name = 'Class B'
 
 
-class C(object):
-    """Class C"""
-    def doThis(self):
-        print "Doing this inside C"
+class C(A, B):
+    def __init__(self):
+        super().__init__()
+    
+    def show_prop(self):
+        print(self.foo)
+        print(self.bar)
+        print(self.name)
 
 
-class D(B, C):
-    """Class D inherits from class B and class C"""
-    pass
-
-
-d_instance = D()
-d_instance.doTHis()
-
-# Following is the most important attribute call in this script.
-# Study the output of this call carefully
-# It display how python is looking up for an attribute
-# This is called MRO, or Method Resolution Order
-
-print D.mro()
-
-
-# Now let's look at the dimond shape inheritance pattern
-
-
-class A(object):
-    """Class A"""
-    def doTHis(self):
-        print "Doing this inside A"
-
-
-class B(A):
-    """Class B the child of class A"""
-    pass
-
-
-class C(A):
-    """Class C the child of class A"""
-    def doThis(self):
-        print "Doing this inside C"
-
-
-class D(B, C):
-    """Class D inherits from class B and class C"""
-    pass
-
-
-d_instance = D()
-d_instance.doTHis()
-print D.mro()
+c_instance = C()
+c_instance.show_prop()
+print('Now printing the Method Resolution Order for Class C is {}.'.format(C.mro()))
