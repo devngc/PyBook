@@ -2,7 +2,7 @@
 
 import collections
 import math
-from math import *
+
 
 # Print documentation for a class
 print(collections.__doc__)
@@ -14,7 +14,7 @@ print(map.__doc__)
 print(dir(math))
 
 # printing the docstring of a function in the math module
-print(sin.__doc__)
+print(math.sin.__doc__)
 
-# See what a built in function does
+# See what any function does
 print(help(len))
