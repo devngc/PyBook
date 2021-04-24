@@ -1,0 +1,5 @@
+Sphinx==3.5.3
+sphinx-bootstrap-theme==0.7.1
+sphinxcontrib-fulltoc==1.2.0
+sphinxcontrib-websupport==1.2.4
+sphinx-click==2.7.1

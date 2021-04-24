@@ -3,8 +3,6 @@ test.py
 .pytest_cache
 *__pycache__
 .coverage
-*.ipynb
-.ipynb_checkpoints
 .tox
 *.egg-info
 tox.ini
