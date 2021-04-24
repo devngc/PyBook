@@ -1,0 +1,7 @@
+pybook.conditional.conditional module
+=====================================
+
+.. automodule:: pybook.conditional.conditional
+   :members:
+   :undoc-members:
+   :show-inheritance:

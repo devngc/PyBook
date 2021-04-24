@@ -1,0 +1,18 @@
+pybook.conditional package
+==========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   pybook.conditional.conditional
+
+Module contents
+---------------
+
+.. automodule:: pybook.conditional
+   :members:
+   :undoc-members:
+   :show-inheritance:
