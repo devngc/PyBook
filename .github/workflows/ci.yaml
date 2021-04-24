@@ -1,0 +1,33 @@
+---
+name: CI
+
+on: [push]
+
+jobs:
+
+  docs:
+    name: Generate docs
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      - name: install dependencies
+        run: |
+          pip install -U .
+          pip install -r dev-requirements.txt
+          sphinx-apidoc -f -e -d 4 -o ./docs ./pybook
+          sphinx-build -b html ./docs ./docs/_build/docs
+
+      - name: deploy to github pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: docs/_build/
+          force_orphan: true
+          keep_files: false
+          full_commit_message: 'deploy: update docs'
