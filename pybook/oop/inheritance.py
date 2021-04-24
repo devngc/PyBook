@@ -1,4 +1,4 @@
-"""This script demonstrates inheritence with a simple exameple"""
+"""This script demonstrates inheritance with a simple example."""
 
 
 class Animal(object):
@@ -9,23 +9,23 @@ class Animal(object):
 
     def eat(self, food):
         """This function is for eating food"""
-        print "%s is eating %s" % (self.name, food)
+        print('The {} is eating {}.'.format(self.name, food))
 
 
 class Dog(Animal):
     """This is the dog class"""
     def fetch(self, thing):
         """This function prints the thing the dog chases"""
-        print "%s goes after %s" % (self.name, thing)
+        print('The {} goes after {}.'.format(self.name, thing))
 
 
 class Cat(Animal):
     """This class is for the cats"""
     def swatstring(self):
-        print "%s shreds the string" % (self.name)
+        print('{} shreds the string.'.format(self.name))
 
 
-# Creating instanses
+# Creating instances
 theDog = Dog("Tommy")
 theCat = Cat("Lucy")
 
